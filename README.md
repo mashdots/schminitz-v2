@@ -12,7 +12,7 @@ I use [Fira Code](https://github.com/tonsky/FiraCode), which is nice becuase it'
 
 To test if your terminal and font support it, check that all the necessary characters are supported by copying the following command to your terminal: `echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"`. The result should look like this:
 
-![Character Example](https://gist.githubusercontent.com/agnoster/3712874/raw/characters.png)
+![Character Example](https://raw.githubusercontent.com/mashdots/schminitz-v2/master/characters.png)
 
 ## What does it show?
 
