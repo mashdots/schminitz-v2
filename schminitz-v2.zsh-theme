@@ -126,9 +126,9 @@ prompt_git() {
     ref=$(git symbolic-ref HEAD 2> /dev/null) || ref="➦ $(git rev-parse --short HEAD 2> /dev/null)"
 
     if [[ -n $dirty ]]; then
-      prompt_segment black yellow
+      prompt_segment 'NONE' yellow
     else
-      prompt_segment $CURRENT_FG green
+      prompt_segment 'NONE' green
     fi
 
     if [[ -e "${repo_path}/BISECT_LOG" ]]; then
